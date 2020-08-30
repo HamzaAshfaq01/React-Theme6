@@ -1,0 +1,109 @@
+.footer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.footer-holder
+{
+    padding: 50px 0px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.footer-logo
+{
+    width: 100%;
+}
+.footer-logo>img
+{
+    width: 20%;
+}
+.footer-contact-info
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-contact-info>h3
+{
+    padding: 10px 0px;
+}
+.location i
+{
+    padding: 10px 0px;
+}
+.email i
+{
+    padding: 10px;
+}
+.phone i
+{
+    padding: 10px 0px;
+}
+.contact-inner
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.location, .email, .phone
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.menus
+{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.recent-post
+{
+    width: 15%;
+}
+.newsletter
+{
+    width: 15%;
+}
+.social
+{
+    padding-top: 10px;
+    display: flex;
+}
+.social li
+{
+    margin-left: 10px;
+}
+.social li i
+{
+  background: white;
+  color: black;
+  width: 40px;
+  height: 40px;
+  line-height: 2.1;
+  text-align: center;
+  border-radius: 50%;
+}
+.newsletter input
+{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+.newsletter button
+{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background: #F2184F;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+}

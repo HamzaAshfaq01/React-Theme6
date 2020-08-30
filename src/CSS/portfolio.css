@@ -1,0 +1,72 @@
+.portfolio
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-holder
+{
+    width: 75%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-heading
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.numb>h1
+{
+    color: gray;
+    font-size: 6vw;
+}
+.portfolio-heading-right>h1
+{
+    padding-top:5px;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.portfolio-heading-right>h5
+{
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.portfolio-heading-right>h1>span
+{
+    color: #f2184f;
+}
+.portfolio-heading-right
+{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-boxes
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-box
+{
+    width: 20%;
+}
+.portfolio-box>img
+{
+    width: 100%;
+}
+.portfolio-btn
+{
+    padding: 10px 20px;
+    background: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

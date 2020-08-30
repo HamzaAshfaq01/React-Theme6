@@ -1,0 +1,69 @@
+.about
+{
+    width: 100%;
+}
+.about-holder
+{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-heading
+{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.numb>h1
+{
+    color: gray;
+    font-size: 6vw;
+}
+.about-heading-right>h1
+{
+    padding-top:5px;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.about-heading-right>h5
+{
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.about-heading-right>h1>span
+{
+    color: #f2184f;
+}
+.about-heading-right>p
+{
+    padding-top: 5px;
+    color: gray;
+}
+.about-heading-right
+{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.about-left
+{
+    width: 50%;
+}
+.about-left>img
+{
+    width: 100%;
+}
+.about-right
+{
+    color: white;
+    background: black;
+    padding: 80px 20px 170px 20px;
+    width: 50%;
+}
+.about-right>p
+{
+    font-size: 15px;
+}

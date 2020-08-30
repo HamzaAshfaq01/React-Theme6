@@ -1,0 +1,80 @@
+.services
+{
+    width: 100%;
+}
+.services-holder
+{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-heading
+{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.numb>h1
+{
+    color: gray;
+    font-size: 6vw;
+}
+.services-heading-right>h1
+{
+    padding-top:5px;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.services-heading-right>h5
+{
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.services-heading-right>h1>span
+{
+    color: #f2184f;
+}
+.services-heading-right
+{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.services-boxes
+{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box
+{
+    margin-top: 20px;
+    width: 30%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.service-box>img
+{
+    width: 30%;
+}
+.service-box>h3
+{
+    padding: 10px 0px;
+    border-bottom: 2px solid black;
+}
+.service-box>p
+{
+    color: black;
+}
+.service-box:hover
+{
+    transform: scale(1.01);
+    transition: all .3s;
+    box-shadow: 2px 2px 10px black;
+}

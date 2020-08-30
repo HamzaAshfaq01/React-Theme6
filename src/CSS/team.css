@@ -1,0 +1,95 @@
+.team
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-holder
+{
+    width: 75%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.team-heading
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.numb>h1
+{
+    color: #ECE9E2;
+    font-size: 6vw;
+}
+.team-heading-right>h1
+{
+    padding-top:5px;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+.team-heading-right>h1>span
+{
+    color: #f2184f;
+}
+.team-heading-right
+{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.team-boxes
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.team-box
+{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.team-image
+{
+    height: 65%;
+    border-radius: 50%;
+}
+.team-image>img
+{
+    height: 100%;
+    border: 15px solid #ECE9E2;
+    width: 100%;
+    border-radius: 50%;
+}
+.team-box p
+{
+    color: gray;
+    text-align: center;
+}
+.business-box>h1
+{
+    color: #f2184f;
+    padding: 20px 0px;
+}
+.business-box>h3
+{
+    color: #f2184f;
+    padding-bottom: 20px;
+}
+.portfolio-btn
+{
+    padding: 10px 20px;
+    background: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
